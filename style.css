@@ -6,7 +6,7 @@ html {
 }
 
 div.img {
-  background-image: url('asset/Bg.jpg');
+  background-image: url('asset/Bg.png');
   /* background-image: src('asset/Bg,jpg'); */
   /* src('http://p1.pichost.me/i/32/1548022.png');<img src="images/picture.jpg" alt="Mountain"> */
   background-position: center;
@@ -17,12 +17,18 @@ div.img {
   /* Full height */
   height: 100%;
 
-  padding: 22px 60px;
+  /* padding: 22px 60px; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 div.content {
   filter: drop-shadow(0px 74px 44px #EAF3FA);
   border-radius: 16px;
+  width: 80%;
 }
 
 div.content-top {
@@ -33,7 +39,7 @@ div.content-top {
   justify-content: space-between;
   align-items: center;
 
-  padding: 76px 76px;
+  padding: 44px 76px 76px 76px;
   border-radius: 16px 16px 0px 0px;
 
   gap: 36px;
@@ -95,11 +101,10 @@ div.text-content {
 }
 
 .logo {
-  width: 65px;
+  width: 70px;
   border-radius: 12px;
 }
 
 .icon {
   width: 400px;
 }
-
