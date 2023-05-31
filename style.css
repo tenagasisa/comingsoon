@@ -1,0 +1,105 @@
+body,
+html {
+  height: 100%;
+  background-color: #EFF4FA;
+  overflow: hidden;
+}
+
+div.img {
+  background-image: url('asset/Bg.jpg');
+  /* background-image: src('asset/Bg,jpg'); */
+  /* src('http://p1.pichost.me/i/32/1548022.png');<img src="images/picture.jpg" alt="Mountain"> */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* width: 100vw; */
+
+  /* Full height */
+  height: 100%;
+
+  padding: 22px 60px;
+}
+
+div.content {
+  filter: drop-shadow(0px 74px 44px #EAF3FA);
+  border-radius: 16px;
+}
+
+div.content-top {
+  background-color: #F2F7FC;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 76px 76px;
+  border-radius: 16px 16px 0px 0px;
+
+  gap: 36px;
+}
+
+div.content-bottom {
+  background-color: #ffffff;
+
+  padding: 12px 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 0px 0px 16px 16px;
+}
+
+div.text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0px 205px;
+
+  gap: 16px;
+}
+
+.title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 51px;
+  text-align: center;
+  color: #0095F6;
+  text-align: center;
+
+  margin: 0%;
+}
+
+.deskripsi {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #94A6B9;
+  text-align: center;
+
+  margin: 0%;
+}
+
+.smallTeks {
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 500;
+  color: #404040;
+}
+
+.logo {
+  width: 80px;
+  border-radius: 12px;
+}
+
+.icon {
+  width: 400px;
+}
+
